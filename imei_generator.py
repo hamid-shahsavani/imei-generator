@@ -124,7 +124,7 @@ class Ui_base_style(object):
         self.default_range_lable.setText(_translate("base_style", "default range"))
         self.how_many_lable.setText(_translate("base_style", "how many"))
         self.imei_generator_by_SYS113_lable.setText(_translate("base_style", "imei generator by SYS113"))
-        self.default_range_line_edit.setText(_translate("base_style", "123456"))
+        self.default_range_line_edit.setText(_translate("base_style", "1234567"))
         self.how_many_line_edit.setText(_translate("base_style", "20"))
 
 def checksum(string):
