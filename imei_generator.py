@@ -113,7 +113,6 @@ class Ui_base_style(object):
         self.how_many_line_edit.setGeometry(QtCore.QRect(10, 60, 121, 23))
         self.how_many_line_edit.setStyleSheet("background-color: rgb(255, 0, 0);")
         self.how_many_line_edit.setObjectName("how_many_line_edit")
-
         self.retranslateUi(base_style)
         QtCore.QMetaObject.connectSlotsByName(base_style)
 
