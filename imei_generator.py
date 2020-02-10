@@ -1,4 +1,4 @@
-# -*- coding: utf-8 
+# -*- coding: utf-8 -*-
 
 from PyQt5 import QtCore, QtGui, QtWidgets 
 from os.path import isdir , isfile , realpath
@@ -66,11 +66,11 @@ class Ui_base_style(object):
                 generate_list(str(self.default_range_line_edit.text()), str(self.how_many_line_edit.text()))
 
         base_style.setObjectName("base_style")
-        base_style.resize(139, 138)
+        base_style.setFixedSize(142, 139)
         font = QtGui.QFont()
         font.setItalic(True)
         base_style.setFont(font)
-        base_style.setStyleSheet("background-color: rgb(32, 32, 32);")
+        base_style.setStyleSheet("background-color: rgb(0, 0, 0);")
         self.generate_button = QtWidgets.QPushButton(base_style)
         self.generate_button.setGeometry(QtCore.QRect(10, 90, 121, 31))
         font = QtGui.QFont()
@@ -78,7 +78,7 @@ class Ui_base_style(object):
         font.setPointSize(9)
         font.setItalic(False)
         self.generate_button.setFont(font)
-        self.generate_button.setStyleSheet("background-color: rgb(0, 0, 124);")
+        self.generate_button.setStyleSheet("background-color: rgb(32, 32, 32);")
         self.generate_button.setObjectName("generate_button")
         self.generate_button.clicked.connect(handle_click)
         self.default_range_lable = QtWidgets.QLabel(base_style)
@@ -87,7 +87,7 @@ class Ui_base_style(object):
         font.setPointSize(9)
         font.setItalic(False)
         self.default_range_lable.setFont(font)
-        self.default_range_lable.setStyleSheet("color: rgb(0, 128, 255);")
+        self.default_range_lable.setStyleSheet("color: rgb(96, 96, 96);")
         self.default_range_lable.setObjectName("default_range_lable")
         self.how_many_lable = QtWidgets.QLabel(base_style)
         self.how_many_lable.setGeometry(QtCore.QRect(40, 40, 71, 21))
@@ -95,7 +95,7 @@ class Ui_base_style(object):
         font.setPointSize(9)
         font.setItalic(False)
         self.how_many_lable.setFont(font)
-        self.how_many_lable.setStyleSheet("color: rgb(0, 128, 255);")
+        self.how_many_lable.setStyleSheet("color: rgb(96, 96, 96);")
         self.how_many_lable.setObjectName("how_many_lable")
         self.imei_generator_by_SYS113_lable = QtWidgets.QLabel(base_style)
         self.imei_generator_by_SYS113_lable.setGeometry(QtCore.QRect(10, 120, 121, 20))
@@ -103,26 +103,26 @@ class Ui_base_style(object):
         font.setPointSize(7)
         font.setItalic(True)
         self.imei_generator_by_SYS113_lable.setFont(font)
-        self.imei_generator_by_SYS113_lable.setStyleSheet("color: rgb(0, 255, 0);")
+        self.imei_generator_by_SYS113_lable.setStyleSheet("color: rgb(96, 96, 96);")
         self.imei_generator_by_SYS113_lable.setObjectName("imei_generator_by_SYS113_lable")
         self.default_range_line_edit = QtWidgets.QLineEdit(base_style)
         self.default_range_line_edit.setGeometry(QtCore.QRect(10, 20, 121, 23))
-        self.default_range_line_edit.setStyleSheet("background-color: rgb(255, 0, 0);")
+        self.default_range_line_edit.setStyleSheet("background-color: rgb(32, 32, 32);")
         self.default_range_line_edit.setObjectName("default_range_line_edit")
         self.how_many_line_edit = QtWidgets.QLineEdit(base_style)
         self.how_many_line_edit.setGeometry(QtCore.QRect(10, 60, 121, 23))
-        self.how_many_line_edit.setStyleSheet("background-color: rgb(255, 0, 0);")
+        self.how_many_line_edit.setStyleSheet("background-color: rgb(32, 32, 32);")
         self.how_many_line_edit.setObjectName("how_many_line_edit")
         self.retranslateUi(base_style)
         QtCore.QMetaObject.connectSlotsByName(base_style)
 
     def retranslateUi(self, base_style):
         _translate = QtCore.QCoreApplication.translate
-        base_style.setWindowTitle(_translate("base_style", "Form"))
+        base_style.setWindowTitle(_translate("base_style", " "))
         self.generate_button.setText(_translate("base_style", "generate"))
         self.default_range_lable.setText(_translate("base_style", "default range"))
         self.how_many_lable.setText(_translate("base_style", "how many"))
-        self.imei_generator_by_SYS113_lable.setText(_translate("base_style", "imei generator by SYS113"))
+        self.imei_generator_by_SYS113_lable.setText(_translate("base_style", " imei generator by SYS113"))
         self.default_range_line_edit.setText(_translate("base_style", "1234567"))
         self.how_many_line_edit.setText(_translate("base_style", "20"))
 
