@@ -7,9 +7,9 @@
 ---
 > ## *download*
 
-![download version 0.2.0 - windows](https://github.com/sys113/imei-generator/releases/download/0.1.0/imei.generator.version.0.1.0.windows.64bit.exe)
+![v0.2.0 - windows](https://github.com/sys113/imei-generator/releases/download/0.1.0/imei.generator.version.0.1.0.windows.64bit.exe)
 
-![download version 0.2.0 - linux - 64bit](https://github.com/sys113/imei-generator/releases/download/0.1.0/imei.generator.version.0.1.0.linux.64bit)
+![v0.2.0 - linux](https://github.com/sys113/imei-generator/releases/download/0.1.0/imei.generator.version.0.1.0.linux.64bit)
 
 --------------------------------------------------
 
@@ -21,5 +21,5 @@
 > *5. finish , show imei's ;D*<br />
 
 --------------------------------------------------
-
+> ## *a example of use*
 ![](review.gif)
